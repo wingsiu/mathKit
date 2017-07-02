@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'mathKit_Example' do
+  pod 'mathKit', :path => '../'
+
+  target 'mathKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
